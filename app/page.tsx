@@ -13,7 +13,6 @@ export default function Home() {
             </a>
             <div className="flex gap-8 text-[13px] text-stone-400">
               <a href="#work">Work</a>
-              <a href="/writing">Writing</a>
               <a href="#contact">Contact</a>
             </div>
           </nav>
@@ -133,27 +132,6 @@ export default function Home() {
 
             </div>
           </section>
-
-          {/* Writing */}
-          <section id="writing" className="animate-on-scroll px-12 py-16">
-            <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-stone-400">
-              Writing
-            </h2>
-            <div className="mt-10 flex flex-col">
-              <a href="/writing/dropping-out" className="group flex items-baseline justify-between gap-4 py-2.5">
-                <div>
-                  <p className="text-[14px] text-stone-900 group-hover:text-stone-600 transition-colors">On Dropping Out</p>
-                  <p className="mt-1 text-[13px] leading-6 text-stone-400">I think anyone who wants to hire me should read this to understand.</p>
-                </div>
-                <p className="shrink-0 text-[12px] font-mono text-stone-300">Mar 2026</p>
-              </a>
-            </div>
-            <a href="/writing" className="mt-6 inline-block text-[13px] text-stone-400 hover:text-stone-600 transition-colors">
-              All posts &rarr;
-            </a>
-          </section>
-
-          <div className="relative left-1/2 h-px w-screen -translate-x-1/2 bg-stone-200" />
 
           {/* Contact */}
           <section id="contact" className="animate-on-scroll px-12 py-16">
