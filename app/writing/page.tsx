@@ -15,8 +15,8 @@ export default function WritingPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="min-h-full overflow-x-hidden bg-[#FAF9F7] font-[family-name:var(--font-geist-sans)]">
-      <div className="mx-auto w-full max-w-3xl min-h-full border-x border-stone-200 bg-[#FEFEFE]">
+    <div className="min-h-screen overflow-x-hidden bg-[#FAF9F7] font-[family-name:var(--font-geist-sans)]">
+      <div className="mx-auto w-full max-w-3xl min-h-screen border-x border-stone-200 bg-[#FEFEFE]">
 
         {/* Nav */}
         <div className="sticky top-0 z-10 bg-[#FEFEFE]/80 backdrop-blur-sm">
