@@ -76,28 +76,13 @@ export default async function PostPage({ params }: Props) {
     <div className="min-h-full overflow-x-hidden bg-[#FAF9F7] font-[family-name:var(--font-geist-sans)]">
       <div className="mx-auto w-full max-w-3xl min-h-full border-x border-stone-200 bg-[#FEFEFE]">
 
-        {/* Nav */}
-        <div className="sticky top-0 z-10 bg-[#FEFEFE]/80 backdrop-blur-sm">
-          <nav className="flex items-center justify-between px-12 py-5">
-            <Link href="/" className="text-[15px] font-semibold text-stone-900">
-              yacine.xyz
-            </Link>
-            <div className="flex gap-8 text-[13px] text-stone-400">
-              <Link href="/#work">Work</Link>
-              <Link href="/writing" className="text-stone-900">Writing</Link>
-              <Link href="/#contact">Contact</Link>
-            </div>
-          </nav>
-          <div className="relative left-1/2 h-px w-screen -translate-x-1/2 bg-stone-200" />
-        </div>
-
         <article className="px-12 py-16">
           <div className="animate-fade-up">
             <Link
               href="/writing"
               className="text-[13px] text-stone-400 hover:text-stone-600 transition-colors"
             >
-              &larr; Back to writing
+              &larr; Back
             </Link>
           </div>
 
