@@ -13,6 +13,7 @@ export default function Home() {
             </a>
             <div className="flex gap-8 text-[13px] text-stone-400">
               <a href="#work">Work</a>
+              <a href="/writing">Writing</a>
               <a href="#contact">Contact</a>
             </div>
           </nav>
@@ -122,7 +123,7 @@ export default function Home() {
               <div className="h-px w-full bg-stone-100" />
               <div className="flex items-baseline justify-between gap-4 py-2.5">
                 <p className="text-[14px] text-stone-900">J.P. Morgan <span className="text-stone-400">— Spring Intern</span></p>
-                <p className="shrink-0 text-[12px] font-mono text-stone-300">Apr 2023</p>
+                <p className="shrink-0 text-[12px] font-mono text-stone-300">Apr 2023 — May 2023</p>
               </div>
               <div className="h-px w-full bg-stone-100" />
               <div className="flex items-baseline justify-between gap-4 py-2.5">
@@ -133,28 +134,24 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Writing — coming back later
+          {/* Writing */}
           <section id="writing" className="animate-on-scroll px-12 py-16">
             <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-stone-400">
               Writing
             </h2>
-            <div className="mt-10 flex flex-col gap-6">
-              <div>
-                <p className="text-[15px] font-medium text-stone-900">On dropping out in France</p>
-                <p className="mt-2 text-[13px] leading-6 text-stone-400">I remember in 2022 I entered uni and OpenAI released their playground and...</p>
-                <p className="mt-2 text-[13px] italic text-stone-300">Coming soon</p>
-              </div>
-              <div>
-                <p className="text-[15px] font-medium text-stone-900">On work</p>
-                <p className="mt-1 text-[13px] italic text-stone-300">Coming soon</p>
-              </div>
-              <div>
-                <p className="text-[15px] font-medium text-stone-900">On sport</p>
-                <p className="mt-1 text-[13px] italic text-stone-300">Coming soon</p>
-              </div>
+            <div className="mt-10 flex flex-col">
+              <a href="/writing/dropping-out" className="group flex items-baseline justify-between gap-4 py-2.5">
+                <div>
+                  <p className="text-[14px] text-stone-900 group-hover:text-stone-600 transition-colors">On Dropping Out</p>
+                  <p className="mt-1 text-[13px] leading-6 text-stone-400">I think anyone who wants to hire me should read this to understand.</p>
+                </div>
+                <p className="shrink-0 text-[12px] font-mono text-stone-300">Mar 2026</p>
+              </a>
             </div>
+            <a href="/writing" className="mt-6 inline-block text-[13px] text-stone-400 hover:text-stone-600 transition-colors">
+              All posts &rarr;
+            </a>
           </section>
-          */}
 
           <div className="relative left-1/2 h-px w-screen -translate-x-1/2 bg-stone-200" />
 
@@ -179,6 +176,17 @@ export default function Home() {
               <a href="https://x.com/seryacine" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between">
                 <span className="font-medium text-stone-900">X</span>
                 <span className="text-stone-300">@seryacine ↗</span>
+              </a>
+              <a href="https://instagram.com/yacineopus" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between">
+                <span className="flex items-center gap-2 font-medium text-stone-900">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="5"/>
+                    <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+                  </svg>
+                  Instagram
+                </span>
+                <span className="text-stone-300">@yacineopus ↗</span>
               </a>
             </div>
           </section>
