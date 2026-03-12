@@ -12,9 +12,41 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://yacine.xyz";
+
 export const metadata: Metadata = {
-  title: "Yacine Alloul",
-  description: "Portfolio de Yacine Alloul",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Yacine Alloul — Builder & Product Engineer",
+    template: "%s — Yacine Alloul",
+  },
+  description:
+    "Product Engineer shipping end-to-end, from research to production. Based between SF and Dubai, building across startups since 2022.",
+  authors: [{ name: "Yacine Alloul" }],
+  creator: "Yacine Alloul",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: "Yacine Alloul",
+    title: "Yacine Alloul — Builder & Product Engineer",
+    description:
+      "Product Engineer shipping end-to-end, from research to production. Based between SF and Dubai, building across startups since 2022.",
+  },
+  twitter: {
+    card: "summary",
+    creator: "@seryacine",
+    title: "Yacine Alloul — Builder & Product Engineer",
+    description:
+      "Product Engineer shipping end-to-end, from research to production. Based between SF and Dubai, building across startups since 2022.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default function RootLayout({
