@@ -55,9 +55,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full bg-white">
+    <html lang="en" className="overflow-x-hidden bg-[#FAF9F7]">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-full bg-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden bg-[#FAF9F7] font-[family-name:var(--font-geist-sans)] selection:bg-stone-900 selection:text-stone-50`}
       >
         {children}
       </body>
