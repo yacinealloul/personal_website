@@ -33,7 +33,7 @@ const projects: Project[] = [
     name: "DegenExpress",
     metric: "$75M volume",
     description:
-      "Crypto trading bot that did over $75M in volume. Built in 2024.",
+      "Launchpad on Sonic that did over $75M in volume. Built in 2024.",
     href: "https://x.com/degenexpress69",
     logo: "/degenexpress.png",
   },
