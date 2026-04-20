@@ -17,26 +17,26 @@ const siteUrl = "https://yacine.xyz";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Yacine Alloul — Builder & Product Engineer",
-    template: "%s — Yacine Alloul",
+    default: "Yacine A. — Builder & Product Engineer",
+    template: "%s — Yacine A.",
   },
   description:
     "Product Engineer shipping end-to-end, from research to production. Based between SF and Dubai, building across startups since 2022.",
-  authors: [{ name: "Yacine Alloul" }],
-  creator: "Yacine Alloul",
+  authors: [{ name: "Yacine A." }],
+  creator: "Yacine A.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Yacine Alloul",
-    title: "Yacine Alloul — Builder & Product Engineer",
+    siteName: "Yacine A.",
+    title: "Yacine A. — Builder & Product Engineer",
     description:
       "Product Engineer shipping end-to-end, from research to production. Based between SF and Dubai, building across startups since 2022.",
   },
   twitter: {
     card: "summary",
     creator: "@seryacine",
-    title: "Yacine Alloul — Builder & Product Engineer",
+    title: "Yacine A. — Builder & Product Engineer",
     description:
       "Product Engineer shipping end-to-end, from research to production. Based between SF and Dubai, building across startups since 2022.",
   },

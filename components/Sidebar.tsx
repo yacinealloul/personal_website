@@ -48,7 +48,7 @@ export default function Sidebar() {
           transition={{ duration: 0.8, delay: 0.1, ease }}
           className="text-[40px] font-semibold leading-[1.05] tracking-[-0.02em] text-stone-900 sm:text-[52px]"
         >
-          Yacine Alloul
+          Yacine A.
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 16, filter: "blur(8px)" }}
