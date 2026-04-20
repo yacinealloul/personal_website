@@ -44,8 +44,7 @@ export default function ProjectsSection() {
               I will push soon.
             </h3>
             <p className="mt-3 text-[14px] leading-[1.7] text-stone-500">
-              A few side builds and experiments are cooking — tools I use daily,
-              things I wanted to exist, and small bets that got out of hand.
+              I&apos;m writing all my good cook :) (it will be long) lol
             </p>
           </div>
 

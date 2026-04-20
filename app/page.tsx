@@ -31,16 +31,6 @@ export default function Home() {
 
             <ProjectsSection />
 
-            <footer className="border-t border-stone-200/70 pt-8 text-[11px] leading-5 text-stone-400">
-              <p>
-                Designed and built by Yacine Alloul. Typeset in{" "}
-                <span className="text-stone-600">Geist</span>.
-              </p>
-              <p className="mt-1 text-stone-300">
-                © {new Date().getFullYear()} · Yacine Alloul
-              </p>
-            </footer>
-
           </main>
         </div>
       </div>
