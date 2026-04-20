@@ -14,22 +14,6 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: "TruePerson",
-    metric: "200k users",
-    description:
-      "AI roleplay platform with over 200k users. Built in 2023, now stopped.",
-    href: "https://www.trueperson.ai/",
-    logo: "/trueperson.jpg",
-  },
-  {
-    name: "DegenExpress",
-    metric: "$75M volume",
-    description:
-      "Crypto trading bot that did over $75M in volume. Built in 2024.",
-    href: "https://x.com/degenexpress69",
-    logo: "/degenexpress.png",
-  },
-  {
     name: "Resurge",
     metric: "Shipped",
     description:
@@ -44,6 +28,22 @@ const projects: Project[] = [
       "iOS app coaching your vertical jump. 10k+ users.",
     href: "https://apps.apple.com/us/app/how2jump-jump-higher-faster/id6755148059",
     logo: "/how2jump.webp",
+  },
+  {
+    name: "DegenExpress",
+    metric: "$75M volume",
+    description:
+      "Crypto trading bot that did over $75M in volume. Built in 2024.",
+    href: "https://x.com/degenexpress69",
+    logo: "/degenexpress.png",
+  },
+  {
+    name: "TruePerson",
+    metric: "200k users",
+    description:
+      "AI roleplay platform with over 200k users. Built in 2023, now stopped.",
+    href: "https://www.trueperson.ai/",
+    logo: "/trueperson.jpg",
   },
 ];
 
