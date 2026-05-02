@@ -47,9 +47,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteUrl,
   },
-  verification: {
-    google: "4xQZAqVePDC-6hqdBiNHvfudV4esR1QizJEMig3ockw",
-  },
 };
 
 export default function RootLayout({
@@ -59,6 +56,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="overflow-x-hidden bg-[#FAF9F7]">
+      <head>
+        <meta name="google-site-verification" content="4xQZAqVePDC-6hqdBiNHvfudV4esR1QizJEMig3ockw" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden bg-[#FAF9F7] font-[family-name:var(--font-geist-sans)] selection:bg-stone-900 selection:text-stone-50`}
       >
